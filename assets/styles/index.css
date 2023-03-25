@@ -14,3 +14,9 @@ h2{
 h1{
   text-align: center;
 }
+
+nav ul li{
+  display: inline;
+  margin-left: 10px;
+  text-align: center;
+}
