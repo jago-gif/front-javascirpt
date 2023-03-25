@@ -1,8 +1,7 @@
-#productos{
+img{
   width: 300px;
   height: auto;
 }
-
 div{
   text-align: center;
 }
@@ -10,5 +9,8 @@ footer{
   text-align: center;
 }
 h2{
+  text-align: center;
+}
+h1{
   text-align: center;
 }
