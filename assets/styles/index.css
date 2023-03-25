@@ -20,4 +20,5 @@ nav{
 nav ul li{
   display: inline;
   margin: 10px;
+  padding-left: 0px;
 }
