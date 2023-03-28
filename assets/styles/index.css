@@ -1,32 +1,58 @@
+.productos{
+  text-align: center;
+}
 .producto{
   width: 300px;
   height: auto;
 }
-div{
-  text-align: center;
-}
-footer{
-  text-align: center;
-}
+
 h2{
   text-align: center;
 }
 h1{
   text-align: center;
 }
-nav{
-  text-align: center;
-}
 
 .menuLista{
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  width: 400px;
+  width: 800px;
   margin: 0 auto;
   background-color: blue;
   border-radius: 10px;  
+  
+ 
+}
+.itemLista{
+  text-align: center;
 }
 .itemLista > a{
   color: white;
   text-decoration: none;
+}
+.piePagina{
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 0.5%;
+}
+.ano{
+  font-size: 1.5rem;
+}
+.nosotros{
+  text-align: justify;
+}
+
+@media (max-width:350px){
+  .menuLista{
+    grid-template-columns:none;
+    width: auto;
+    text-align: center;
+  }
+}
+@media (max-width:800px){
+  .menuLista{
+    width: auto;
+    text-align: center;
+  }
 }
