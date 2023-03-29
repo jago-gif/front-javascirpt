@@ -4,29 +4,36 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/styles/index.css">
   <meta name="description" content="pagina de contacto de te lo vendo">
   <title>Contacto</title>
 </head>
 <body>
-  <h1 style="text-align: center;">Contacto</h1>
-  <section>
-    <form action="contacto" method="post">
-      <div style="text-align: center;">
+  <h1 >Contacto</h1>
+  <section class="contacto">
+    <form class="formulario" action="contacto" method="post" >
+      <div>
         <div>
-          <label>Nombre</label>
-          <input type="text" name="nombre" placeholder="Nombre" >
+          <label class="textoForm">Nombre</label>
+          <input class="inputForm" type="text" name="nombre" placeholder="Nombre" >
+          <label class="textoForm">Email</label>
+          <input class="inputForm" type="email" name="email" placeholder="correo electronico">
+          <label class="textoForm">Mensaje</label>
+          <textarea class="inputForm" name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
         </div>
-        <div>
-          <label>Correo Electrónico</label>
-          <input type="email" name="email" placeholder="correo electronico">
-        </div>
-        <div>
-          <label>Mensaje</label>
-      <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
-        </div>
-        <button type="submit">Envia tu mensaje</button>
+        <button class="boton" type="submit">Envia tu mensaje</button>
       </div>
     </form>
+
   </section>
+  <footer>
+    <div class="piePagina">
+      <p>Zimram Blanco</p>
+      <p>Evelin García</p>
+      <p>Javier Garrido</p>
+      <p>Benjamin Mora</p>
+      <p class="ano">2023 Copyright </p>
+    </div>
+</footer>
 </body>
 </html>

@@ -5,6 +5,7 @@
 }
 
 body {
+  height: 100vh;
   background: rgb(80, 185, 195);
   background: linear-gradient(180deg, rgba(80, 185, 195, 0.34217436974789917) 12%, rgba(0, 212, 255, 1) 100%);
 }
@@ -98,4 +99,39 @@ h1 {
   h1 {
     font-size: 3.5rem;
   }
+}
+
+/*  contacto */
+.contacto{
+  margin-top: 2rem;
+}
+.formulario{
+  display: flex;
+  width: 300px;
+  margin: 0 auto;
+  justify-content: center;
+  
+}
+.textoForm{
+  margin-left: 2%;
+}
+.inputForm{
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  margin: 2%;
+}
+.boton{
+  width: 100%;
+  background-color: #0099ff;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  margin-left: 2%;
+  border: none;
+  border-radius: 4px;
+}
+.boton:hover{
+  background-color: #0099ffab;
 }
