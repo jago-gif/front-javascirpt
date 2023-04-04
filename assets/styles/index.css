@@ -32,3 +32,12 @@ body {
   background-color: #ebeff8;
   color: #8D8D8D;
 }
+#noNombre{
+  visibility: hidden;
+}
+#noCorreo{
+  visibility: hidden;
+}
+#noMensaje{
+  visibility: hidden;
+}
