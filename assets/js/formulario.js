@@ -51,8 +51,7 @@ $(document).ready(function () {
   $("#sellersQuantityTable").DataTable({
     language: {
       "url": "//cdn.datatables.net/plug-ins/1.10.24/i18n/Spanish.json"
-    }/* para enviar por data descomentar el documento
-    ,
+    },
     data: [
       [
         "Windows 7",
@@ -138,7 +137,7 @@ $(document).ready(function () {
         "Intel 9",
         "wifi"
       ],
-    ]*/
+    ]
   });
 })
 
