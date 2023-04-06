@@ -45,12 +45,105 @@ $("#correo").blur(function () {
     $("#noCorreo").css("visibility", "visible");
   }
 })
+
 //aquí inicia la tabla
-let data=[];
-const tableRanking = $("#sellersQuantityTable").DataTable({
-  dom: 'Pfrtip',
-  responsive: true, "lengthChange": false, "autoWidth": false, "searching": true, fixedHeader: true, "scrollX": true,
-  language: {
-    "url": "//cdn.datatables.net/plug-ins/1.10.24/i18n/Spanish.json"
-}
+$(document).ready(function () {
+  $("#sellersQuantityTable").DataTable({
+    language: {
+      "url": "//cdn.datatables.net/plug-ins/1.10.24/i18n/Spanish.json"
+    }/* para enviar por data descomentar el documento
+    ,
+    data: [
+      [
+        "Windows 7",
+        "16 gb",
+        "500gb",
+        "Intel 5",
+        "wifi"
+      ],
+      [
+        "Windows 10",
+        "32 gb",
+        "250gb",
+        "Intel 7",
+        "por cable"
+      ],
+      [
+        "Windows 11",
+        "8 gb",
+        "500gb",
+        "Intel 9",
+        "wifi"
+      ],
+      [
+        "Windows 7",
+        "16 gb",
+        "500gb",
+        "Intel 5",
+        "wifi"
+      ],
+      [
+        "Windows 10",
+        "32 gb",
+        "250gb",
+        "Intel 7",
+        "por cable"
+      ],
+      [
+        "Windows 11",
+        "8 gb",
+        "500gb",
+        "Intel 9",
+        "wifi"
+      ],
+      [
+        "Windows 7",
+        "16 gb",
+        "500gb",
+        "Intel 5",
+        "wifi"
+      ],
+      [
+        "Windows 10",
+        "32 gb",
+        "250gb",
+        "Intel 7",
+        "por cable"
+      ],
+      [
+        "Windows 11",
+        "8 gb",
+        "500gb",
+        "Intel 9",
+        "wifi"
+      ],
+      [
+        "Windows 7",
+        "16 gb",
+        "500gb",
+        "Intel 5",
+        "wifi"
+      ],
+      [
+        "Windows 10",
+        "32 gb",
+        "250gb",
+        "Intel 7",
+        "por cable"
+      ],
+      [
+        "Windows 11",
+        "8 gb",
+        "500gb",
+        "Intel 9",
+        "wifi"
+      ],
+    ]*/
   });
+})
+
+
+
+
+
+
