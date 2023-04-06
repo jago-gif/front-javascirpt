@@ -5,9 +5,10 @@
 }
 
 body {
-  height: 100vh;
+  min-height: 100vh;
   background: rgb(80, 185, 195);
   background: linear-gradient(180deg, rgba(80, 185, 195, 0.34217436974789917) 12%, rgba(0, 212, 255, 1) 100%);
+  position: relative;
 }
 
 .form-content h3 {
@@ -40,4 +41,7 @@ body {
 }
 #noMensaje{
   visibility: hidden;
+}
+.contenedor{
+  min-height: calc(100vh - 242px);
 }
