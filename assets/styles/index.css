@@ -43,5 +43,5 @@ body {
   visibility: hidden;
 }
 .contenedor{
-  min-height: calc(100vh - 242px);
+  min-height: calc(100vh - 275px);
 }
