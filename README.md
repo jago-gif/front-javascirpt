@@ -13,4 +13,10 @@ En este repositorio se encuentran los trabajos grupales realizados en el modulo 
 
 * JQuery <a href="https://jquery.com/" title="jQuery"><img src="https://github.com/get-icon/geticon/raw/master/icons/jquery-icon.svg" alt="jQuery" width="21px" height="21px"></a>
 
+## Integrantes
+para realizar este proyecto nuestro equipo fue constitudo por:
 
+* Zimram Blanco
+* Evelin García
+* Javier Garrido
+* Benjamin Mora
