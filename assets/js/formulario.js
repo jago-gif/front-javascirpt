@@ -54,88 +54,88 @@ $(document).ready(function () {
     },
     data: [
       [
-        "Windows 7",
-        "16 gb",
-        "500gb",
-        "Intel 5",
-        "wifi"
+        "WHEY",
+        "Proteína",
+        "Optimun Nutrition",
+        "5 lbs",
+        "Disponible"
       ],
       [
-        "Windows 10",
-        "32 gb",
-        "250gb",
-        "Intel 7",
-        "por cable"
+        "HMB",
+        "Proteína Suero",
+        "Sport Lab",
+        "339 grs",
+        "Disponible"
       ],
       [
-        "Windows 11",
-        "8 gb",
-        "500gb",
-        "Intel 9",
-        "wifi"
+        "CARNIVOR",
+        "Proteína Carne",
+        "MuscleMeds",
+        "4.5 lbs",
+        "n/d"
       ],
       [
-        "Windows 7",
-        "16 gb",
-        "500gb",
-        "Intel 5",
-        "wifi"
+        "PREDATOR",
+        "Proteína Carne",
+        "Hexacore",
+        "4.8 lbs",
+        "Disponible"
       ],
       [
-        "Windows 10",
-        "32 gb",
-        "250gb",
-        "Intel 7",
-        "por cable"
+        "NITRO TECH",
+        "Proteína",
+        "MuscleTech",
+        "2 lbs",
+        "Disponible"
       ],
       [
-        "Windows 11",
-        "8 gb",
-        "500gb",
-        "Intel 9",
-        "wifi"
+        "KREATOR",
+        "Activador",
+        "Winker Nutrition",
+        "600 grs",
+        "Disponible"
       ],
       [
-        "Windows 7",
-        "16 gb",
-        "500gb",
-        "Intel 5",
-        "wifi"
+        "ORGANIC PROTEIN",
+        "Proteína Vegana",
+        "Pure Inspired",
+        "1.5 lbs",
+        "Disponible"
       ],
       [
-        "Windows 10",
-        "32 gb",
-        "250gb",
-        "Intel 7",
-        "por cable"
+        "ENSURE SPORT",
+        "Proteína Líquida",
+        "Abbott",
+        "330 ml",
+        "Disponible"
       ],
       [
-        "Windows 11",
-        "8 gb",
-        "500gb",
-        "Intel 9",
-        "wifi"
+        "ISOPURE",
+        "Proteína Líquida",
+        "Natures Best",
+        "473 ml",
+        "n/d"
       ],
       [
-        "Windows 7",
-        "16 gb",
-        "500gb",
-        "Intel 5",
-        "wifi"
+        "PRO CREATINE",
+        "Creatinina",
+        "SportLab",
+        "300 grs",
+        "Disponible"
       ],
       [
-        "Windows 10",
-        "32 gb",
-        "250gb",
-        "Intel 7",
-        "por cable"
+        "GLUTAMINE",
+        "Glutamina",
+        "Optimun Nutrition",
+        "300 grs",
+        "n/d"
       ],
       [
-        "Windows 11",
-        "8 gb",
-        "500gb",
-        "Intel 9",
-        "wifi"
+        "GLUTAMINE DRIVE",
+        "Glutamina",
+        "Nutrex",
+        "300 grs",
+        "Disponible"
       ],
     ]
   });
